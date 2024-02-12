@@ -17,7 +17,7 @@ export default function NotFoundScreen() {
 
 const styles = {
   container: `items-center flex-1 justify-center p-5`,
-  title: `text-xl font-bold`,
+  title: `text-xl font-bold bg-gradient-to-r from-purple via-pink to-yellow`,
   link: `mt-4 pt-4`,
   linkText: `text-base text-[#2e78b7]`,
 };

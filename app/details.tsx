@@ -9,8 +9,8 @@ export default function Details() {
   const BackButton = () => (
     <TouchableOpacity onPress={router.back}>
       <View className={styles.backButton}>
-        <Feather name="chevron-left" size={16} color="#007AFF" />
-        <Text className={styles.backButtonText}>Back</Text>
+        <Feather name="chevron-left" size={20} color="#dc670e" />
+        <Text className={styles.backButtonText}>Voltar</Text>
       </View>
     </TouchableOpacity>
   );
@@ -28,7 +28,7 @@ export default function Details() {
 
 const styles = {
   backButton: 'flex-row',
-  backButtonText: 'text-blue-500 ml-1',
+  backButtonText: 'text-orange-400 ml-1 text-xl',
   container: 'flex-1 p-6',
   main: 'flex-1 max-w-[960]',
   title: 'text-[64px] font-bold',
